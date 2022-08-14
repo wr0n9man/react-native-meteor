@@ -2,7 +2,7 @@ import Data from '../Data';
 import { hashPassword } from '../../lib/utils';
 import call from '../Call';
 import { Collection } from '../Collection';
-import { AsyncStorage } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const TOKEN_KEY = 'reactnativemeteor_usertoken';
 
